@@ -16,6 +16,8 @@
     --main-color: #4B82C4;
     --text-color:#2E3D4E;
     --bg-color:#fff ;
+    --bgM--color:linear-gradient(to bottom, #ffffff 0%, #000000 470%);
+
 
 }
 
@@ -25,6 +27,7 @@ img{
 body
 {
     color:var(--text-color);
+    background: var(--bgM--color);
 }
 
 .container{
