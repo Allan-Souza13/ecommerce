@@ -4,6 +4,27 @@ let cartIcon = document.querySelector('#cart-icon');
 let cart = document.querySelector('.cart');
 let closeCart = document.querySelector('#close-cart');
 
+//----------JSON---------------------------------------//
+let adidasJSON='{"produtos":['+
+    '{"nome":"Adidas SHIRT","preço":119.99},'+
+    '{"nome":"Adidas AirPods","preço":99.99},'+
+    '{"nome":"Adidas CortaVento","preço":329.99},'+
+    '{"nome":"Adidas Garrafa","preço":100.00},'+
+    '{"nome":"Adidas Oculos","preço":129.99},'+
+    '{"nome":"Adidas Cap","preço":110.00},'+
+    '{"nome":"Adidas Bag","preço":219.90},'+
+    '{"nome":"Adidas Tênis","preço":419.99},'+
+    '{"nome":"Adidas bubble","preço":500.00},'+
+    '{"nome":"Adidas Moletom","preço":219.99},'+
+    '{"nome":"Adidas T-Shirt","preço":119.99},'+
+    '{"nome":"Adidas T-Shirt","preço":119.99}'+
+    ']}'
+
+    let p_obj=JSON.parse(adidasJSON)
+    console.log(p_obj.produtos)
+
+//----------------------------------------------------//
+
 //abre o carrinho
 cartIcon.onclick = () =>{
     cart.classList.add("active");
@@ -149,3 +170,4 @@ function updateTotal(){
 
     
 }
+
