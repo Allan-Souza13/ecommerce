@@ -1,7 +1,7 @@
 # e-compre
 <div align="center">
   
-<a href="https://allan-souza13.github.io/GridGallery/">Clique aqui</a>
+<a href="https://allan-souza13.github.io/ecommerce/">Clique aqui</a>
 </div>
 
 <div align="center">
